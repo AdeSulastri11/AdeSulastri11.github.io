@@ -1,0 +1,82 @@
+* {
+  text-decoration: none;
+  transition: all .40s ease;
+  color: white;
+}
+:root {
+  --bg: #121212;
+  --h1-font: 3rem;
+}
+body {
+  background: var(--bg);
+}
+/* navbar */
+nav {
+  gap: 2rem;
+  position: sticky;
+  top: 0;
+  background: transparent;
+  backdrop-filter: blur(12px);
+  z-index: 100000000000000000000;
+}
+/* hero */
+.hero {
+  background: url('../assets/banner-bg.png');
+  height: 100vh;
+  background-size: cover;
+}
+.hero-content h1 {
+  font-size: var(--h1-font);
+}
+.hero-img img {
+  aspect-ratio: 1/1;
+  width: 100%;
+  animation: up-down 3s linear infinite;
+}
+@keyframes up-down {
+  0%,
+  100% {
+    transform: translateY(10%);
+  }
+  50% {
+    transform: translateY(0);
+  }
+}
+/* skill */
+.skills {
+  background: url('./assets/color-sharp.png') no-repeat;
+  height: 50vh;
+  background-position-x: top;
+}
+
+
+svg {
+  aspect-ratio: 1/1;
+  width: 100%;
+
+}
+/* projects */
+.projects {
+  background: url('./assets/banner-bg.png') no-repeat fixed;
+  padding: 10rem 0;
+  background-size: cover;
+}
+.card {
+  background: transparent;
+  backdrop-filter: blur(10px);
+}
+.img-card img {
+  aspect-ratio: 1.5/1;
+  width: 100%;
+}
+/* footer */
+.footer {
+  background: url('./assets/footer-bg.png');
+  background-size: cover;
+}
+.container-footer {
+  height: 30vh;
+}
+footer .text p {
+  font-size: 10px;
+}
