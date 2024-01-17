@@ -22,7 +22,7 @@ nav {
 }
 /* hero */
 .hero {
-  background: url('../assets/bg-main-2.jpg');
+  background: url('assets/bg-main-2.jpg');
   height: 100vh;
   background-size: cover;
 }
@@ -62,7 +62,7 @@ svg {
 }
 /* projects */
 .projects {
-  background: url('./assets/bg-main-2.jpg') no-repeat fixed;
+  background: url('assets/bg-main-2.jpg') no-repeat fixed;
   padding: 10rem 0;
   background-size: cover;
 }
