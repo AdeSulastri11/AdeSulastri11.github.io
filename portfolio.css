@@ -2,13 +2,14 @@
   text-decoration: none;
   transition: all .40s ease;
   color: white;
+  color: black;
 }
 :root {
   --bg: #121212;
   --h1-font: 3rem;
 }
 body {
-  background: var(--bg);
+  background-color: #DBF4FF;
 }
 /* navbar */
 nav {
@@ -21,7 +22,7 @@ nav {
 }
 /* hero */
 .hero {
-  background: url('../assets/banner-bg.png');
+  background: url('../assets/bg-main-2.jpg');
   height: 100vh;
   background-size: cover;
 }
@@ -29,9 +30,12 @@ nav {
   font-size: var(--h1-font);
 }
 .hero-img img {
-  aspect-ratio: 1/1;
+  /* aspect-ratio: 1/1; */
+  /* clip-path: polygon(50% 0%, 0% 100%, 100% 100%); */
+  max-width: 50%;
   width: 100%;
-  animation: up-down 3s linear infinite;
+  /* background-color: #47BBD7; */
+  /* animation: up-down 3s linear infinite; */
 }
 @keyframes up-down {
   0%,
@@ -44,9 +48,10 @@ nav {
 }
 /* skill */
 .skills {
-  background: url('./assets/color-sharp.png') no-repeat;
+  /* background: url('./assets/bg-main-2.jpg') no-repeat; */
   height: 50vh;
   background-position-x: top;
+  /* background-size: cover; */
 }
 
 
@@ -57,7 +62,7 @@ svg {
 }
 /* projects */
 .projects {
-  background: url('./assets/banner-bg.png') no-repeat fixed;
+  background: url('./assets/bg-main-2.jpg') no-repeat fixed;
   padding: 10rem 0;
   background-size: cover;
 }
@@ -71,7 +76,7 @@ svg {
 }
 /* footer */
 .footer {
-  background: url('./assets/footer-bg.png');
+  /* background: url('./assets/footer-bg.png'); */
   background-size: cover;
 }
 .container-footer {
