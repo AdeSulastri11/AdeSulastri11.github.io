@@ -10,6 +10,7 @@
 }
 body {
   background-color: #DBF4FF;
+  color: black;
 }
 /* navbar */
 nav {
@@ -70,7 +71,7 @@ svg {
   background: transparent;
   backdrop-filter: blur(10px);
 }
-.img-card img {
+.img-card video {
   aspect-ratio: 1.5/1;
   width: 100%;
 }
