@@ -31,10 +31,10 @@ nav {
   font-size: var(--h1-font);
 }
 .hero-img img {
-  /* aspect-ratio: 1/1; */
-  /* clip-path: polygon(50% 0%, 0% 100%, 100% 100%); */
+  aspect-ratio: 1/1;
+  /* clip-path: polygon(50% 0%, 0% 100%, 100% 100%); */background-position: center;
   max-width: 50%;
-  width: 100%;
+  /* width: 100%; */
   /* background-color: #47BBD7; */
   /* animation: up-down 3s linear infinite; */
 }
@@ -54,12 +54,9 @@ nav {
   background-position-x: top;
   /* background-size: cover; */
 }
-
-
 svg {
   aspect-ratio: 1/1;
   width: 100%;
-
 }
 /* projects */
 .projects {
