@@ -19,17 +19,16 @@
   <!-- HERO SECTION -->
   <section class="hero text-white d-flex bg-fixed">
     <div class="container-md d-sm-flex align-self-center align-items-center grid gap-5 ">
+      <div class="hero-img d-flex justify-content-start overflow-hidden ">
+        <img src="assets/myPhoto2.png" class="rounded-circle">
+      </div>
       <div class="hero-content grid col-sm-6">
         <button type="button" class="btn btn-outline-light p-2 px-3  mb-1">Welcome to My Portfolio</button>
         <h1 class="text-capitalize">ade sulastri</h1>
-        <p class="fw-lighter">Hi my name is Ade Sulastri I am a fourth-semester student majoring in Computer Science
+        <p class="fw-lighter">Hi my name is Ade Sulastri I am a Five-semester student majoring in Computer Science in Universitas Halu Oleo
           with a keen interest in web development and UI/UX. I have a strong desire to continue learning and enhancing
-          my skills, particularly in the field of web development. I have worked on personal projects, including an
-          e-commerce website, to sharpen my skills using HTML, CSS, and JavaScript. I have also utilized CSS frameworks
-          like Tailwind CSS and Bootstrap.</p>
-      </div>
-      <div class="hero-img d-flex justify-content-end overflow-hidden ">
-        <img src="assets/myPhoto2.png" class="rounded-circle">
+          my skills, particularly in the field of web development.</p>
+          <button class="btn border"><a href="https://drive.google.com/file/d/1nfGt3kAKxi1ZtebnoKTK4ef1qQz73tTH/view?usp=sharing" class="text-white" target="_blank">Resume</a></button>
       </div>
     </div>
   </section>
@@ -41,8 +40,8 @@
         <h1>photo</h1>
       </div> -->
       <div class="nav">
-        <a class="nav-link text-white" href="#skills">skills</a>
-        <a class="nav-link text-white" href="#projects">projects</a>
+        <a class="nav-link tex-black" href="#skills">skills</a>
+        <a class="nav-link tex-black" href="#projects">projects</a>
       </div>
     </div>
   </nav>
@@ -212,9 +211,15 @@
             <video autoplay muted loop>
               <source src="assets/project/desain_ecommerce_headphone_revisi.mp4" type="video/mp4">
             </video>
-            <h5>Desain</h5>
             <p class="grid place">I designed an e-commerce landing page for headphone products using the Figma
-              application.</p>
+              application.
+              <span>
+                <p>Tools</p>
+                <ul>
+                  <li>Figma</li>
+                </ul>
+              </span>
+            </p>
             <button type="button" class="btn btn-primary mt-2" data-bs-toggle="modal" data-bs-target="#videoModal"
               data-bs-video="assets/project/desain_ecommerce_headphone_revisi.mp4">
               Perbesar Video
@@ -239,12 +244,12 @@
               Perbesar Video
             </button>
           </div>
+
           <div class="card border p-3">
             <video autoplay muted loop>
               <source src="assets/project/CRUD Laravel 11.mp4" type="video/mp4">
             </video>
-            <p>I created the 'Organic Coffee' website, a responsive e-commerce platform. Designed using HTML, CSS, and
-              JavaScript with a cart feature.
+            <p>It is my personal project CRUD (Create, Update & Delete) and Searching
               <span>
                 <p>Tools</p>
                 <ul>
@@ -265,9 +270,7 @@
             <video autoplay muted loop>
               <source src="assets/project/ecommerce-catalog-vueJS.mp4" type="video/mp4">
             </video>
-            <p class="grid place">I created a Digital Library website that provides features such as book borrowing,
-              book return, searching, as well as registration, login, and logout functions. Built with HTML, Bootstrap,
-              and JavaScript.
+            <p class="grid place">E-commerce catalog with API to access products. This project I made for my first virtual internship.
               <span>
                 <p>Tools</p>
                 <ul>
@@ -285,9 +288,7 @@
             <video autoplay muted loop>
               <source src="assets/project/web_desain_plant.mp4" type="video/mp4">
             </video>
-            <p>I created this web interface following the example from a Dribbble website page design, with the goal of
-              practicing and improving my skills in building websites based on available designs. In developing this web
-              project, I used Tailwind CSS.
+            <p>This interface web 
               <span>
                 <p>Tools</p>
                 <ul>
@@ -304,8 +305,7 @@
             <video autoplay muted loop>
               <source src="assets/project/web_kopi_organic.mp4" type="video/mp4">
             </video>
-            <p>I created the 'Organic Coffee' website, a responsive e-commerce platform. Designed using HTML, CSS, and
-              JavaScript with a cart feature.
+            <p>I created the 'Organic Coffee' website, a responsive e-commerce platform. I did this because I'm part of the competition web.
               <span>
                 <p>Tools</p>
                 <ul>
@@ -323,6 +323,7 @@
       </div>
     </div>
   </section>
+
   <!-- Modal -->
   <div class="modal fade" id="videoModal" tabindex="-1" aria-labelledby="videoModalLabel" aria-hidden="true">
     <div class="modal-dialog modal-lg">
